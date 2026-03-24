@@ -1,7 +1,9 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
 
 body {
   min-height: 100vh;
   margin: 0;
+  font-family: "Pretendard Variable";
   background: linear-gradient(180deg, #362a21 0%, #0d0d0d 100%);
   background-blend-mode: overlay;
   background-attachment: fixed;
@@ -22,6 +24,7 @@ div {
 
 /* 2. 로고 */
 header {
+  margin-top: 4.38rem;
   display: grid;
   place-items: center;
   gap: 1.58rem;
@@ -32,14 +35,20 @@ p {
   margin-block: 0;
 }
 
+span {
+  color: #ee7521;
+}
+
 /* 3. 로그인 폼 */
 form {
+  margin-top: 3.13rem;
   display: grid;
   place-items: center;
   gap: 0.94rem;
 }
 
 input {
+  font-family: inherit;
   width: 34.125rem;
   height: 4rem;
   border-radius: 0.625rem;
@@ -67,18 +76,32 @@ input:focus-visible {
 }
 
 .login_btn {
-    cursor: pointer;
-    display: flex;
-    width: 34.125rem;
-    height: 4.25rem;
-    padding: 0.625rem;
-    background: #fff;
-    color: #000;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 136%;
-    letter-spacing: -0.0385rem;
+  cursor: pointer;
+  margin-top: 1.25rem;
+  display: flex;
+  width: 34.125rem;
+  height: 4.25rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  color: #000;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136%;
+  letter-spacing: -0.0385rem;
+}
+
+.ask_member {
+  margin-top: 1.88rem;
+  margin-bottom: 2.19rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.94rem;
 }
 
 #welcome {
