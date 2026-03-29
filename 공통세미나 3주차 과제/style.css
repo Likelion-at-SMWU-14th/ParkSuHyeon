@@ -340,3 +340,64 @@ body {
     filter: blur(0.5px);
     margin-right: 6rem;
 }
+
+.contact-area {
+    position: absolute;
+    width: 44.125rem;
+    left: 2rem;
+    right: 2rem;
+    top: 3rem;
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-icon {
+    width: 6rem;
+    height: 6rem;
+    right: 50rem;
+    top:-5rem;
+    filter: blur(0.75px);
+}
+
+.contact-header h2 {
+    color: #F7A165;
+    font-family: Helvetica;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.4375rem;
+    filter: blur(0.75px);
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #F7A165;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    filter: blur(0.75px);
+}
+
+.contact-img {
+    width: 3.5rem;
+    height: 3.5rem;
+    gap:0.5rem;
+}
