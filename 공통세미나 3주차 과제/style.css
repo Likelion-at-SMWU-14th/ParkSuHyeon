@@ -182,6 +182,12 @@ body {
     margin-bottom: 1rem;
 }
 
+.left-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .info-header h2 {
     color: #F7A165;
     font-family: Helvetica;
