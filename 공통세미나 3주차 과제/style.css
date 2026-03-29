@@ -217,6 +217,7 @@ body {
 
 .home-btn:hover {
     transform: translateY(-5px);
+    transition: 0.2s;
 }
 
 .info-row {
