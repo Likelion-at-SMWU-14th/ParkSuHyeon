@@ -182,7 +182,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.left-group {
+.info-header-left {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -256,4 +256,87 @@ body {
     font-weight: 400;
     line-height: 1.5rem; /* 183.333% */
     filter: blur(0.5px);
+}
+
+.edu-area {
+    position: absolute;
+    width: 44.125rem;
+    height: 19.375rem;
+    left: 2rem;
+    right: 2rem;
+    top: 3rem;
+}
+
+.edu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.edu-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.edu-icon {
+    width: 6rem;
+    height: 6rem;
+    right: 50rem;
+    top:-5rem;
+    filter: blur(0.75px);
+}
+
+.edu-header h2 {
+    color: #F7A165;
+    font-family: Helvetica;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.4375rem;
+    filter: blur(0.75px);
+}
+
+.edu_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.edu-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    white-space: nowrap;
+    color: #F7A165;
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+    filter: blur(0.5px);
+}
+
+.check {
+    width: 1.5rem;
+}
+
+.edu-date {
+    margin-top: 3.3rem;
+    color: rgba(247, 161, 101, 0.68);
+    white-space: nowrap;
+    font-family: Helvetica;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    filter: blur(0.5px);
+    margin-right: 6rem;
 }
