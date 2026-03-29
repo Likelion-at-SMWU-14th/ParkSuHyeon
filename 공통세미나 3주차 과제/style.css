@@ -165,3 +165,89 @@ body {
 .icon-btn:hover {
     transform: translateY(-5px);
 }
+
+.info-area {
+    position: absolute;
+    width: 44.125rem;
+    height: 19.375rem;
+    left: 2rem;
+    right: 2rem;
+    top: 3rem;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.info-header h2 {
+    color: #F7A165;
+    font-family: Helvetica;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.4375rem;
+    filter: blur(0.75px);
+    
+}
+
+.info-icon {
+    width: 6rem;
+    height: 6rem;
+    right: 50rem;
+    top:-5rem;
+    filter: blur(0.75px);
+}
+
+.home-btn {
+    width: 5rem;
+    height: 5rem;
+    left: 50rem;
+    top:-5rem;
+    filter: drop-shadow(0 4px 20px rgba(238, 117, 33, 0.30));
+}
+
+.home-btn:hover {
+    transform: translateY(-5px);
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    width: 8rem;
+    color: rgba(247, 161, 101, 0.68);
+    font-family: Helvetica;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+    filter: blur(0.5px);
+}
+
+.line {
+    flex: 1;
+    border-bottom: 2px dotted rgba(247, 161, 101, 0.63);
+    stroke-width: 1px;
+    stroke: rgba(247, 161, 101, 0.63);
+    filter: blur(1.25px);
+    border: 0.06;
+    margin: 1.59 15.3 12.2 8.38;
+}
+
+.value {
+    width: 12rem;
+    color: rgba(247, 161, 101, 0.68);
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 183.333% */
+    filter: blur(0.5px);
+}
