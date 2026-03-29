@@ -301,13 +301,12 @@ body {
 .edu_list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .edu-row {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
 }
 
 .edu-left {
@@ -320,7 +319,7 @@ body {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 4rem;
+    line-height: 2.25rem;
     filter: blur(0.5px);
 }
 
@@ -329,16 +328,15 @@ body {
 }
 
 .edu-date {
-    margin-top: 3.3rem;
     color: rgba(247, 161, 101, 0.68);
     white-space: nowrap;
     font-family: Helvetica;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5rem;
     filter: blur(0.5px);
-    margin-right: 6rem;
+    margin-left: 2.5rem;
 }
 
 .contact-area {
