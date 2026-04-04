@@ -1,0 +1,68 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦁 CONTACT</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="card-wrapper">
+
+        <!-- 뒤 카드 -->
+        <div class="card-bg"></div>
+
+        <!-- 앞 카드 -->
+        <div class="card">
+
+            <!--상단바-->
+            <div class="window-bar">
+                <img src="{% static 'images/bar_button.svg' %}" alt="bar button" class="bar-btn">
+            </div>
+
+            <div class="contact-area">
+
+                <div class="contact-header">
+                    <div class="contact-header-left">
+                        <img src="{% static 'images/contact.svg' %}" class="contact-icon">
+                        <h2>CONTACT</h2>
+                    </div>
+
+                    <a href="{% url 'mypage' %}" class="home-btn">
+                        <img src="{% static 'images/home.svg' %}" alt="home">
+                    </a>
+                </div>
+
+                <div class="contact-list">
+                    <div class="contact-row">
+                        <img src="{% static 'images/email.svg' %}" class="contact-img">
+                        <span>unhyns@sookmyung.ac.kr</span>
+                    </div>
+
+                    <div class="contact-row">
+                        <img src="{% static 'images/phone.svg' %}" class="contact-img">
+                        <span>010-2640-7686</span>
+                    </div>
+
+                    <div class="contact-row">
+                        <a href="https://www.instagram.com/iunhyns_/" target="_blank">
+                            <img src="{% static 'images/instagram.svg' %}" class="contact-img">
+                        </a>
+                        <span>@iunhyns_</span>
+                    </div>
+
+                    <div class="contact-row">
+                        <a href="https://github.com/unhyns" target="_blank">
+                            <img src="{% static 'images/github.svg' %}" class="contact-img">
+                        </a>
+                        <span>github.com/unhyns</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

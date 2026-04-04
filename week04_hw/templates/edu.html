@@ -1,0 +1,66 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦁 EDUCATION</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="card-wrapper">
+
+        <!-- 뒤 카드 -->
+        <div class="card-bg"></div>
+
+        <!-- 앞 카드 -->
+        <div class="card">
+
+            <!--상단바-->
+            <div class="window-bar">
+                <img src="{% static 'images/bar_button.svg' %}" alt="bar button" class="bar-btn">
+            </div>
+
+            <div class="edu-area">
+                <div class="edu-header">
+                    <div class="edu-header-left">
+                        <img src="{% static 'images/edu.svg' %}" class="edu-icon">
+                        <h2>EDUCATION</h2>
+                    </div>
+
+                    <a href="{% url 'mypage' %}" class="home-btn">
+                        <img src="{% static 'images/home.svg' %}" alt="home">
+                    </a>
+                </div>
+                
+                <div class="edu-list">
+                    <div class="edu-row">
+                        <div class="edu-left">
+                            <img src="{% static 'images/checkbox.svg' %}" class="check">
+                            <span>Business Administration, Sookmyung Women’s University</span>
+                        </div>
+                        <div class="edu-date">2024. 03~</div>
+                    </div>
+
+                    <div class="edu-row">
+                        <div class="edu-left">
+                            <img src="{% static 'images/checkbox.svg' %}" class="check">
+                            <span>SMWU Business Research Society Chungmyung 21th</span>
+                        </div>
+                        <div class="edu-date">2024.03~2026.02</div>
+                    </div>
+
+                    <div class="edu-row">
+                        <div class="edu-left">
+                            <img src="{% static 'images/checkbox.svg' %}" class="check">
+                            <span>LIKELION SMWU 14TH Plan / Design</span>
+                        </div>
+                        <div class="edu-date">2026. 03~</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

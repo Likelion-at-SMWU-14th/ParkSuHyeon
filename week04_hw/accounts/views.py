@@ -33,3 +33,15 @@ def logout(request):
     if request.user.is_authenticated:
         auth_logout(request)
         return redirect('login')
+    
+def mypage(request):
+    return render(request, 'profile.html')
+
+def contact(request):
+    return render(request, 'contact.html')
+
+def edu(request):
+    return render(request, 'edu.html')
+
+def info(request):
+    return render(request, 'info.html')
