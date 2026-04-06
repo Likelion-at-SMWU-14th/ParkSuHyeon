@@ -19,7 +19,7 @@
                 <img src="{% static 'images/out.svg' %}">
             </a>
         </header>
-        <form name="signup" method="post" onsubmit="return checkPassword();">
+        <form name="signup" method="POST" onsubmit="return checkPassword();">
             {% csrf_token %}
             <section class="signup_section">
                 <span>이름</span>
